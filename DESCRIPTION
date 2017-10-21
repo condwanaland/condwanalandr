@@ -1,11 +1,12 @@
 Package: condwanaland
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Personal R functions
+Version: 0.1.0.9000
+Authors@R: person("Conor", "Neilson", "condwanaland@gmail.com", role = c("aut", "cre")) 
+Maintainer: Conor Neilson <condwanaland@gmail.com>
+Description: Just my own collection of functions I like to use. Staying
+    on github, no intention to release to CRAN. Feel free to use any you
+    find helpful.
+License: 
 Encoding: UTF-8
 LazyData: true
