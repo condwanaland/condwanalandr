@@ -1,2 +1,3 @@
-read_saf <- function(...) read.csv(..., stringsAsFactors = FALSE)
-
+read_saf <- function(...) {
+  read.csv(..., stringsAsFactors = FALSE)
+}
