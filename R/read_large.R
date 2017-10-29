@@ -1,3 +1,11 @@
+#' Function to read large data files
+#'
+#' @param ... Additional arguments to be passed to read.csv
+#'
+#' @return
+#' @export
+#'
+#' @examples
 read.large <- function(...) {
   temp_data <- read.csv(..., nrows = 100)
   temp_cols <- sapply(temp_data, class)

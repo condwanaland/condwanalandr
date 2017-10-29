@@ -7,6 +7,7 @@ Maintainer: Conor Neilson <condwanaland@gmail.com>
 Description: Just my own collection of functions I like to use. Staying
     on github, no intention to release to CRAN. Feel free to use any you
     find helpful.
-License: 
+License: MIT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
