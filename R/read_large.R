@@ -2,10 +2,14 @@
 #'
 #' @param ... Additional arguments to be passed to read.csv
 #'
-#' @return
+#' @return A dataframe that is a representation of the data contained
+#'  in the file
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' read_large(my_data.csv)
+#' }
 read.large <- function(...) {
   temp_data <- read.csv(..., nrows = 100)
   temp_cols <- sapply(temp_data, class)

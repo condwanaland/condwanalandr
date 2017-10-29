@@ -9,9 +9,13 @@ filter_rows(...)
 \arguments{
 \item{...}{additional arguments that would normally be passed to dplyr #' ::filter}
 }
+\value{
+An object of the same class as .Data (taken from ?filter)
+}
 \description{
 Wrapper to dplyr:filter that automatically drops unused factor levels
 }
 \examples{
-
+data(iris)
+filter_rows(iris, Species == "versicolor")
 }

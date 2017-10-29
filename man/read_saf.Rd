@@ -9,6 +9,14 @@ read_saf(...)
 \arguments{
 \item{...}{Additional arguments to be passed to read.csv}
 }
+\value{
+A dataframe containing a representation of the data in the   #' file
+}
 \description{
 Wrapper to read.csv that does not convert strings to factors
+}
+\examples{
+\dontrun{
+read_saf("my_df.csv")
+}
 }

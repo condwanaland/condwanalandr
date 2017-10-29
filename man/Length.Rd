@@ -9,6 +9,13 @@ Length(x)
 \arguments{
 \item{x}{A numeric vector}
 }
+\value{
+A vector of length one
+}
 \description{
 Wrapper around length that removes NAs
+}
+\examples{
+data(iris)
+Length(iris$Sepal.Length)
 }

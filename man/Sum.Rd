@@ -9,6 +9,13 @@ Sum(x)
 \arguments{
 \item{x}{A numerical vector}
 }
+\value{
+A vector of length 1
+}
 \description{
 Wrapper to sum that removes NAs
+}
+\examples{
+data(iris)
+Sum(iris$Sepal.Length)
 }

@@ -9,6 +9,13 @@ Median(x)
 \arguments{
 \item{x}{A numeric vector}
 }
+\value{
+A vector of length one
+}
 \description{
 Wrapper around median that removes NAs
+}
+\examples{
+data(iris)
+Median(iris$Sepal.Length)
 }

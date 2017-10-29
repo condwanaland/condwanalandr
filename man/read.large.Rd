@@ -9,6 +9,15 @@ read.large(...)
 \arguments{
 \item{...}{Additional arguments to be passed to read.csv}
 }
+\value{
+A dataframe that is a representation of the data contained
+ in the file
+}
 \description{
 Function to read large data files
+}
+\examples{
+\dontrun{
+read_large(my_data.csv)
+}
 }

@@ -9,6 +9,13 @@ Mean(x)
 \arguments{
 \item{x}{A numeric vector}
 }
+\value{
+A vector of length one
+}
 \description{
 Wrapper around mean that removes NAs
+}
+\examples{
+data(iris)
+Mean(iris$Sepal.Length)
 }
