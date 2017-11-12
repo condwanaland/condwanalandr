@@ -2,7 +2,7 @@ Package: condwanaland
 Type: Package
 Title: Personal R functions
 Version: 0.1.0.9000
-Authors@R: person("Conor", "Neilson", "condwanaland@gmail.com", role = c("aut", "cre")) 
+Authors@R: person("Conor", "Neilson", email = "condwanaland@gmail.com", role = c("aut", "cre")) 
 Maintainer: Conor Neilson <condwanaland@gmail.com>
 Description: Just my own collection of functions I like to use. Staying
     on github, no intention to release to CRAN. Feel free to use any you
