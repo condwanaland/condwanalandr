@@ -10,7 +10,7 @@
 #' \dontrun{
 #' read_large(my_data.csv)
 #' }
-read.large <- function(...) {
+read_large <- function(...) {
   temp_data <- read.csv(..., nrows = 100)
   temp_cols <- sapply(temp_data, class)
   read.csv(..., colClasses = temp_cols)
