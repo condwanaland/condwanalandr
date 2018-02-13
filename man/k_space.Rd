@@ -2,15 +2,18 @@
 % Please edit documentation in R/k_space.R
 \name{k_space}
 \alias{k_space}
-\title{Title}
+\title{k_space}
 \usage{
 k_space(x, ...)
 }
 \arguments{
 \item{...}{}
 }
+\value{
+Actually not sure?
+}
 \description{
-Title
+k_space
 }
 \examples{
 library(ggplot2)

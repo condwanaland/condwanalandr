@@ -9,6 +9,9 @@ prefix_0(x)
 \arguments{
 \item{x}{A vector of length 1 (scalar)}
 }
+\value{
+A vector of some length as x
+}
 \description{
 Any elements with more than one character are left blank
 }

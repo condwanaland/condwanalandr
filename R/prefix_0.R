@@ -4,7 +4,7 @@
 #'
 #' @param x A vector of length 1 (scalar)
 #'
-#' @return
+#' @return A vector of some length as x
 #' @export
 #'
 #' @examples

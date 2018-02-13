@@ -1,9 +1,9 @@
-#' Title
+#' k_space
 #'
 #' @param x
 #' @param ...
 #'
-#' @return
+#' @return Actually not sure?
 #' @export
 #'
 #' @examples
