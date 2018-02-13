@@ -1,6 +1,6 @@
 #' Wrapper to dplyr:filter that automatically drops unused factor levels
 #'
-#' @param ... additional arguments that would normally be passed to dplyr #' ::filter
+#' @param ... additional arguments that would normally be passed to dplyr::filter
 #'
 #' @return An object of the same class as .Data (taken from ?filter)
 #' @export
